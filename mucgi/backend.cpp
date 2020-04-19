@@ -20,6 +20,8 @@ std::string BackendProc::printRequest(SSMap &qmap, SSMap &header)
     resp += "\r\n\r\n";
     resp += content; 
 
+	int ap = 1;
+
     return resp;
 }
 
